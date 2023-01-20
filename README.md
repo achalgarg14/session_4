@@ -34,3 +34,26 @@ Explain your 3 steps using these target, results, and analysis with links to you
 #### Model Train and Test Performance:
 <img width="901" alt="Attempt_1_Performance" src="https://user-images.githubusercontent.com/118976187/213631027-798a3e87-237e-4575-b8ec-c725ced85519.png">
 
+### Second Step
+#### Target:
+- Reducing number of parameters to reach closer to 10k
+- Add batch wise normalization for increasing model efficiency
+- Introduce Dropouts to avoid overfitting
+- Add GAP layer
+#### Results:
+- Total Parameters: 11,944
+- Best Training Accuracy: 99.31%
+- Best Test Accuracy: 99.45%
+#### Analysis:
+- Model learned well and can do better if pushed to more epochs. But with current limitations we can not go beyond 15 epochs.
+- Batch Normalization has helped the model in learning even with reduced parameters.
+- DropOut made the model resilient.
+- Consistently Test Accuracy is higher than Train Accuracy, so model is not overfitting
+- GAP layer (size of 4) has not reduced accuracy
+- Last few epochs does not have consistent accuracy above 99.4%
+#### Model Summary:
+<img width="598" alt="Attempt_2_Summary" src="https://user-images.githubusercontent.com/118976187/213638217-bd09eacb-1ed0-4dea-8e17-49977fa92c04.png">
+
+#### Model Train and Test Performance:
+<img width="901" alt="Attempt_2_Performance" src="https://user-images.githubusercontent.com/118976187/213638294-6829af6d-be1e-4b48-b2d2-030702edccac.png">
+
