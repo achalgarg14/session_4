@@ -78,3 +78,23 @@ Explain your 3 steps using these target, results, and analysis with links to you
 #### Model Train and Test Performance:
 <img width="911" alt="Attempt_3_Performance" src="https://user-images.githubusercontent.com/118976187/213668194-7560af64-c1d2-4f94-bf85-e1fd9441abef.png">
 
+### Fourth Step
+#### Target:
+- Lower number of parameters (Meet our second target of <=8000 Parameters)
+- Accuracy 94% consistent in last few layers
+
+#### Results:
+- Total Parameters: 7,416
+- Best Training Accuracy: 99.22%
+- Best Test Accuracy: 99.48%
+
+#### Analysis:
+- Model was able to achieve it's target of 99.40% accuracy at 7th epoch and remained more than 99.40% after that aprt from 9th epoch.
+- Model Architecture is the same as the previous one but with one less convolution layer.
+- It trained well and has higher test accuracy than training accuracy across epochs.
+
+#### Model Summary:
+<img width="567" alt="Attempt_4_Summary" src="https://user-images.githubusercontent.com/118976187/213680683-3da319f0-aeee-4394-a01a-3a1b0afcbf20.png">
+
+#### Model Train and Test Performance:
+<img width="905" alt="Attempt_4_Performance" src="https://user-images.githubusercontent.com/118976187/213680736-40a750c7-c0e4-477c-a96e-0f5a223482a4.png">
