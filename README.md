@@ -57,3 +57,24 @@ Explain your 3 steps using these target, results, and analysis with links to you
 #### Model Train and Test Performance:
 <img width="901" alt="Attempt_2_Performance" src="https://user-images.githubusercontent.com/118976187/213638294-6829af6d-be1e-4b48-b2d2-030702edccac.png">
 
+### Third Step
+#### Target:
+- Lower number of parameters (Meet our target of <=10000 Parameters)
+- Add Transformations to make model invariant to brightness and rotation
+- Use Step Learning to stablize results
+
+#### Results:
+- Total Parameters: 9,752
+- Best Training Accuracy: 99.33%
+- Best Test Accuracy: 99.48%
+
+#### Analysis:
+- Model was able to achieve it's target of 99.40% accuracy at 8th epoch and remained more than 99.40% after that.
+- Adding transformations like Random Rotation & Color Jitter helped the model to learn better and become more resilient.
+- Step Learning with higher starting learning rate of and decent step size helped the model in learning fast and stabilizing accuracy in later stages.
+#### Model Summary:
+<img width="570" alt="Attempt_3_Summary" src="https://user-images.githubusercontent.com/118976187/213648095-1efa5e9c-f857-4ca9-81c4-66af202449f8.png">
+
+
+#### Model Train and Test Performance:
+<img width="912" alt="Attempt_3_Performance" src="https://user-images.githubusercontent.com/118976187/213648152-0e5cb488-81c8-4320-a740-48a17f34cea9.png">
