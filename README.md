@@ -28,8 +28,9 @@ Explain your 3 steps using these target, results, and analysis with links to you
 - Model is overfitting. It can be inferred from training accuracy that it has nearly learnt (what it can) but test accuracy is still low.
 - In nearly all epochs (post first 3 epochs) training accuracy is more than testing accuracy. Model has started remembering training data and is resulting in lower test accuracy.
 - Parameters in this model need to be reduced and regularized to make the model learn better.
-#### Model Summary
+#### Model Summary:
 <img width="571" alt="Attempt_1_Summary" src="https://user-images.githubusercontent.com/118976187/213630721-b1da7341-b9eb-4561-a8c1-969e4f735651.png">
-#### Model Train and Test Performance
+
+#### Model Train and Test Performance:
 <img width="901" alt="Attempt_1_Performance" src="https://user-images.githubusercontent.com/118976187/213631027-798a3e87-237e-4575-b8ec-c725ced85519.png">
 
