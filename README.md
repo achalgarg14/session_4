@@ -65,16 +65,16 @@ Explain your 3 steps using these target, results, and analysis with links to you
 
 #### Results:
 - Total Parameters: 9,752
-- Best Training Accuracy: 99.33%
-- Best Test Accuracy: 99.48%
+- Best Training Accuracy: 99.34%
+- Best Test Accuracy: 99.53%
 
 #### Analysis:
-- Model was able to achieve it's target of 99.40% accuracy at 8th epoch and remained more than 99.40% after that.
+- Model was able to achieve it's target of 99.40% accuracy at 7th epoch and remained more than 99.40% after that.
 - Adding transformations like Random Rotation & Color Jitter helped the model to learn better and become more resilient.
 - Step Learning with higher starting learning rate of and decent step size helped the model in learning fast and stabilizing accuracy in later stages.
 #### Model Summary:
 <img width="570" alt="Attempt_3_Summary" src="https://user-images.githubusercontent.com/118976187/213648095-1efa5e9c-f857-4ca9-81c4-66af202449f8.png">
 
-
 #### Model Train and Test Performance:
-<img width="912" alt="Attempt_3_Performance" src="https://user-images.githubusercontent.com/118976187/213648152-0e5cb488-81c8-4320-a740-48a17f34cea9.png">
+<img width="911" alt="Attempt_3_Performance" src="https://user-images.githubusercontent.com/118976187/213668194-7560af64-c1d2-4f94-bf85-e1fd9441abef.png">
+
